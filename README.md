@@ -1,73 +1,117 @@
-<<<<<<< HEAD
-# Breathe Right AI - Lung Health Monitoring System
+🩺 Patients and Doctors — Devsparks
 
-A full-stack web application for monitoring lung health with separate dashboards for Patients and Doctors.
+A full-stack healthcare management platform connecting patients and doctors through a simple, secure, and intelligent web interface.
+Built with React (Vite) on the frontend and Flask (Python) on the backend.
 
-## Project Structure
 
-- `frontend/` - React application built with Vite
-- `backend/` - Flask REST API with mock data
+---
 
-## Setup Instructions
+📁 Project Structure
 
-### Backend Setup
+Devsparks/
+│
+├── frontend/    → React (Vite) application
+└── backend/     → Flask REST API with mock data
 
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
 
-2. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   ```
+---
 
-3. Activate the virtual environment:
-   - Windows: `venv\Scripts\activate`
-   - Mac/Linux: `source venv/bin/activate`
+⚙️ Setup Instructions
 
-4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+🔹 Backend Setup
 
-5. Run the Flask server:
-   ```bash
-   python app.py
-   ```
+1. Navigate to the backend folder
 
-   The backend will run on `http://localhost:5000`
+cd backend
 
-### Frontend Setup
 
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
+2. Create a virtual environment (recommended)
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+python -m venv venv
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
 
-   The frontend will run on `http://localhost:3000`
+3. Activate the environment
 
-## Features
+Windows: venv\Scripts\activate
 
-- **Role-Based Authentication**: Login for Patients and Doctors
-- **Patient Dashboard**: Daily health input, progress charts, emergency alerts, report generation
-- **Doctor Dashboard**: View all patients and their health logs
-- **AI Chatbot**: Basic chat interface (stub implementation)
+Mac/Linux: source venv/bin/activate
 
-## Default Accounts
 
-Check `backend/models.py` for sample user accounts and credentials.
 
-=======
-# Devsparks
->>>>>>> 279ad9db38cdf941735503fec7447d24b082011f
+4. Install dependencies
+
+pip install -r requirements.txt
+
+
+5. Run the Flask server
+
+python app.py
+
+✅ Backend runs at: http://localhost:5000
+
+
+
+
+---
+
+🔹 Frontend Setup
+
+1. Navigate to the frontend folder
+
+cd frontend
+
+
+2. Install dependencies
+
+npm install
+
+
+3. Start the development server
+
+npm run dev
+
+✅ Frontend runs at: http://localhost:3000
+
+
+
+
+---
+
+🌟 Key Features
+
+🔐 Role-Based Authentication
+Secure login system for both Patients and Doctors.
+
+👩‍⚕️ Doctor Dashboard
+View all registered patients, track their daily health updates, and monitor emergency alerts.
+
+🧍 Patient Dashboard
+Submit daily health inputs, visualize progress through interactive charts, and generate reports.
+
+🤖 AI Chatbot (Preview)
+A basic conversational interface for general health-related queries and guidance.
+
+
+
+---
+
+🧾 Default Accounts
+
+Default credentials for testing are available in:
+backend/models.py
+
+
+---
+
+🚀 Tech Stack
+
+Frontend: React (Vite), HTML, CSS, JavaScript
+
+Backend: Python (Flask), REST API
+
+Database: Mock data (can be extended to SQL/NoSQL)
+
+
+
+---
+
