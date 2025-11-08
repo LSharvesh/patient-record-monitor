@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Breathe Right AI - Lung Health Monitoring System
 
 A full-stack web application for monitoring lung health with separate dashboards for Patients and Doctors.
@@ -67,3 +68,6 @@ A full-stack web application for monitoring lung health with separate dashboards
 
 Check `backend/models.py` for sample user accounts and credentials.
 
+=======
+# Devsparks
+>>>>>>> 279ad9db38cdf941735503fec7447d24b082011f
