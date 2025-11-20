@@ -1,4 +1,4 @@
-🩺 Patients and Doctors — Devsparks
+🩺 Patients and Doctors - web monitoring app
 
 A full-stack healthcare management platform connecting patients and doctors through a simple, secure, and intelligent web interface.
 Built with React (Vite) on the frontend and Flask (Python) on the backend.
