@@ -7,8 +7,6 @@ Built with React (Vite) on the frontend and Flask (Python) on the backend.
 ---
 
 📁 Project Structure
-
-Devsparks/
 │
 ├── frontend/    → React (Vite) application
 └── backend/     → Flask REST API with mock data
